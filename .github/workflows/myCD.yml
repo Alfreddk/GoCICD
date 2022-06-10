@@ -4,7 +4,7 @@ on:
     tags:
       - v*
  
- jobs:
+jobs:
   release:
     name: Release on Github
     runs-on: ubuntu-latest

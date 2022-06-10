@@ -11,6 +11,6 @@ jobs: # job to execute
     runs-on: ubuntu-latest # specifiy os in virtual machine
     steps: 
       - name: Print Hello
-        run: # run terminal command
+        run: | # run terminal command
           ls 
           echo Hello!!

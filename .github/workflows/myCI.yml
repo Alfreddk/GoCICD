@@ -46,7 +46,7 @@ jobs: # job to execute
       - name: Install denpendencies and run test
         run: |
           # go mod init calc
-          # go mod tidy
+          go mod tidy
           # go get github.com/franela/goblin
           go install github.com/tebeka/go2xunit@latest
           go test -v
